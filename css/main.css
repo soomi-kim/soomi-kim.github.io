@@ -58,8 +58,8 @@ a:hover {
 
 .icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
   margin-right: 5px;
 }
 
@@ -76,6 +76,11 @@ a:hover {
   width: fit-content;
   height: 100%;
   align-items: center;
+}
+
+.socials {
+  margin-top: 11px;
+  font-size: 13.5px;
 }
 
 @media screen and (max-width: 500px) {
