@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding-left: 20px;
+}
+
 a:hover {
   color: #083D82;
   text-decoration: none;
