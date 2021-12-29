@@ -64,11 +64,11 @@ a:hover {
 }
 
 .linkedin {
-  content: url('../assets/linkedin.jpg');
+  content: url('/assets/linkedin.jpg');
 }
 
 .email {
-  content: url('../assets/email.jpg');
+  content: url('/assets/email.jpg');
 }
 
 .links a {
