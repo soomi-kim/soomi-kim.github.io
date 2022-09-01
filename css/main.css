@@ -104,3 +104,12 @@ a:hover {
     margin-top: 25px;
   }
 }
+
+.abstract-link {
+  list-style: none;
+}
+
+#abstract {
+  display: none;
+  margin-top: 2px;
+}

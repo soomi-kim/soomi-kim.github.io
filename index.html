@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>Soomi Kim</title>
     <link rel="stylesheet" href="/css/main.css">
+    <script>
+    function showAbstract(){
+      const abstract = document.getElementById("abstract");
+      const abstractLink = document.getElementById("abstract-link-text")
+      if (abstract.style.display === "block") {
+        abstractLink.innerHTML = "&#9658; Click here to open abstract";
+        abstract.style.display = "none";
+      } else {
+        abstractLink.innerHTML = "&#9660; Click here to close abstract";
+        abstract.style.display = "block";
+      }
+    }
+    </script>
   </head>
   <body>
     <div class="parent">
@@ -42,6 +55,9 @@
         <h2>Working Papers</h2>
         <ul>
           <li>"Shortcuts to Innovation: The Use of Analogies in Knowledge Production." Job Market Paper.</li>
+          <p></p>
+          <li class="abstract-link"><a id="abstract-link-text" href="javascript:showAbstract()">&#9658; Click here to open abstract</a></li>
+          <div id="abstract">Old ideas serve as critical inputs into new ideas, but how do knowledge workers innovate when there are only few existing ideas to build on? In this paper, I explore how analogical reasoning—and technologies that automate it—can serve as “shortcuts” that allow innovators to import knowledge from an adjacent domain, bypassing the need to build knowledge from the ground up. Yet, because analogies require the availability of other domains as templates, they may also constrain the direction of innovation towards areas of research with available templates. Using the setting of structural biology, I document a tradeoff: while the arrival of an analogy-based technology increased the rate of innovation, it led to workers herding around solving less impactful problems.</div>
           <p></p>
           <li>
             "Is the Patent System Sensitive to Incorrect Information?" (with Janet Freilich). 2nd-round revisions requested, <em>The Review of Economics and Statistics.</em>
