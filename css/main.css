@@ -75,6 +75,10 @@ a:hover {
   content: url('/assets/email.jpg');
 }
 
+.googlescholar {
+  content: url('/assets/googlescholar.jpg');
+}
+
 .links a {
   display: flex;
   width: fit-content;
